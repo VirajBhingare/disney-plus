@@ -6,13 +6,18 @@ html {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Avenir";
+  src: url("../public/fonts/Avenir-Roman.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
 
   background-color: #040714;
   color: #f9f9f9;
-  font-family: Avenir-Roman, sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 a {
@@ -32,7 +37,7 @@ a {
   }
 }
 
-@media only screen and (max-width) {
+@media only screen and (max-width: 479px) {
   body {
     font-size: 14px;
   }
