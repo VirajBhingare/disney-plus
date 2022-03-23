@@ -243,8 +243,8 @@ const SignOut = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
-  width: 48px;
+  height: 36px;
+  width: 36px;
   cursor: pointer;
   position: relative;
 
